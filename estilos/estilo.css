@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    min-height: 100vh;
 }
 
 header {
@@ -27,6 +28,7 @@ main {
     flex: 1;
     margin-top: 20px;
     padding: 20px;
+    position: relative;
 }
 
 h1 {
@@ -185,12 +187,24 @@ section {
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
     width: 500px;
     min-height: 200px;
     flex-direction: column;
     display: flex;
+    position: relative;
     }
+
+    .gerar-button {
+    background-image: linear-gradient(to right, #2e2929, #2b2d2f);
+    border-radius: 2px;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    width: fit-content;
+}
 
 .header-container {
     position: relative;
@@ -228,22 +242,12 @@ section {
     background-color: #1a1c1f;
     padding: 15px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .h2-gerar {
     color: black;
     padding: 12px;
-}
-
-.gerar-button {
-    background-image: linear-gradient(to right, #2e2929, #2b2d2f);
-    border-radius: 2px;
-    padding: 10px;
-    color: aliceblue;
-    text-decoration: none;
-    margin: auto;
-    cursor: pointer;
 }
 
 .galeria-grid {

@@ -22,4 +22,3 @@ document.getElementById('formgerador')
     }, 2000);
 
 }, 3000);
-
